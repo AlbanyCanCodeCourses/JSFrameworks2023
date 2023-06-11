@@ -82,9 +82,11 @@ As a user, I would like to play a simple number guessing game.
 
 2. It will render an input field for the user to enter a guess, which should be a number between 1 and 10.
 
-3. The input field must validate the entered value. If the user enters an empty input, a 0, or a number outside the range of 1-10, an error message should be displayed prompting them to enter a valid number.
+3. The input field must validate the entered value. If the user enters an empty input, a 0, or a number outside the range of 1-10, an error message should be displayed prompting them to enter a valid number.|
 
-4. It will also render a "Submit Guess" button, which, when clicked, will evaluate the user's guess and display a message.
+4. The "GuessTheNumber" component should pick a number between 1 and 10 at random.
+
+5. It will also render a "Submit Guess" button, which, when clicked, will evaluate the user's guess and display a message.
    The game randomly selects a number between 1 and 10 at the start. If the user's guess is too low, a message saying "Too low! The correct number was [number]" will appear. If the user's guess is too high, a message saying "Too high! The correct number was [number]" will appear. If the user's guess is correct, a message saying "Correct! You win!" will appear.
 
 ### Acceptance Criteria
