@@ -40,7 +40,7 @@ As a bonus, you may build your accordion by looping through the contents of the 
 ## Acceptance Criteria
 
 - You have an accordion with three sections. The middle (second) section should be expanded, while the rest of the sections should be collapsed.
-- You used conditional rendering to solve this problem.
+- You should use conditional rendering to solve this problem.
 
 ## Sample HTML
 
