@@ -25,17 +25,24 @@ If you do not see any test results, press `a` to run all tests. The tests will r
 
 To stop the tests, press `ctrl+c`.
 
-## Acceptance Criteria
+## Instructions
 
-Create an [accordion](https://semantic-ui.com/modules/accordion.html) with three sections. The middle (second) section should be expanded, while the rest of the sections should be collapsed.
+For this assignment, you will build an accordion. An [accordion](https://semantic-ui.com/modules/accordion.html) is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content. Each section of content can be "expanded" or "collapsed" to reveal the content associated with that item.
 
 ![An example of an accordion](demo.png)
 
+Create a component called _AccordionSection_. It should render one of the sample HTML snippets below to the screen. It should receive _isOpen_ - a boolean - as a prop. If _isOpen_ is true, use the snippet of code when the accordion section is expanded. When this value is false, you the snippet of code for when the accordion section is collapsed. (Your _AccordionSection_ component can receive other props.)
+
+Import your _AccordionSection_ component in your _App.jsx_ file. Using _AccordionSection_, create an accordion with three sections, where only the middle section is expanded.
+
 As a bonus, you may build your accordion by looping through the contents of the file _src/content/accordion.js_.
 
-## Instructions
+## Acceptance Criteria
 
-An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content. Each section of content can be "expanded" or "collapsed" to reveal the content associated with that item.
+- You have an accordion with three sections. The middle (second) section should be expanded, while the rest of the sections should be collapsed.
+- You used conditional rendering to solve this problem.
+
+## Sample HTML
 
 This is sample HTML if a section is expanded. (You will need to convert this to JSX.)
 
