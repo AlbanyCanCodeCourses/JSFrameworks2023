@@ -58,3 +58,5 @@ You must complete this assignment with the `useState()` hook(s).
 All inputs must be controlled inputs and you must have a controlled form.
 
 Everything that the user entered into the form should be displayed below the form.
+
+If the user has signed up for the news letter, display "Thank you for signing up for our newsletter!". If the user has not signed up for the news letter, display "Please sign up for our newsletter!".

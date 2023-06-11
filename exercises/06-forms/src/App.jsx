@@ -77,13 +77,13 @@ function App() {
       </div>
       <div className="mb-3 form-check">
         <input
-          id="agreeTerms"
-          name="agreeTerms"
+          id="signUpForNewsLetter"
+          name="signUpForNewsLetter"
           type="checkbox"
           className="form-check-input"
         />
-        <label htmlFor="agreeTerms" className="form-check-label">
-          I agree to the terms and conditions
+        <label htmlFor="signUpForNewsLetter" className="form-check-label">
+          Sign Up For Newsletter
         </label>
       </div>
       <button type="submit" className="btn btn-primary">
