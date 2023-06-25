@@ -112,7 +112,7 @@ function AddressForm(props) {
           className="form-check-input"
         />
         <label htmlFor="confirm" className="form-check-label">
-          Confirm Information
+          Sign Up For Newsletter
         </label>
       </div>
 
