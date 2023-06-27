@@ -1,16 +1,15 @@
-import './App.css';
-
-import { Heading } from './components/Heading/Heading';
-import { Welcome } from './components/Heading/welcome/Welcome';
+import "./App.css";
+// import something here
+import Welcome from "./Components/Welcome";
+import Heading from "./Components/Heading";
 
 function App() {
   return (
     <div className="App">
-      <Heading>Welcome to my React App</Heading>
-      <Welcome name="Ariadna" />
+      <Welcome name="Victoria" />
       <Welcome />
+      <Heading>Welcome to my React App!</Heading>
     </div>
-  );
-}
+  );}
 
 export default App;

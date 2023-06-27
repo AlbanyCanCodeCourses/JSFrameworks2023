@@ -1,10 +1,5 @@
-import React from 'react';
-
 const Me = () => {
-  return (
-    <div>
-      <h1>My name is Ari</h1>
-    </div>
-  );
+  return <div>My name is Victoria Forrest</div>;
 };
+
 export default Me;
